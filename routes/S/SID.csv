@@ -1,0 +1,4 @@
+callsign,origin,destination,days_seen,last_seen,takeoff_utc
+SID9304,SBGR,SBFZ,1,2026-10-01,07:02
+SID9408,SBFZ,SBGR,4,2026-10-06,01:18
+SID9409,SBGR,SBFZ,2,2026-10-06,10:04

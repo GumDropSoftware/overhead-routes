@@ -1,0 +1,5 @@
+callsign,origin,destination,days_seen,last_seen,takeoff_utc
+SHA440,VNNG,VNKT,1,2026-10-03,13:00
+SHA738,VNVT,VNKT,1,2026-10-05,11:56
+SHA740,VNVT,VNKT,2,2026-10-06,15:49
+SHA825,VNKT,VNBW,1,2026-10-02,08:32
