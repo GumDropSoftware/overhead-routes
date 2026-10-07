@@ -298,8 +298,6 @@ def release_urls(day):
         tag = f"v{day:%Y.%m.%d}-planes-readsb-{pod}-0"
         request = urllib.request.Request(
             f"https://api.github.com/repos/adsblol/globe_history_{day.year}/releases/tags/{tag}", headers=UA)
-        if os.environ.get("GITHUB_TOKEN"):
-            request.add_header("Authorization", f"Bearer {os.environ['GITHUB_TOKEN']}")
         try:
             with urllib.request.urlopen(request, timeout=30) as response:
                 assets = json.load(response)["assets"]
@@ -583,6 +581,7 @@ def grade(day):
 # ---------------------------------------------------------------- publishing (the Pi, nightly)
 
 REPO = "GumDropSoftware/overhead-routes"
+PUBLISHED = {"stats.json", "latest.json", "airlines-allow.txt"}  # plus everything under routes/
 
 
 def read_json(path):
@@ -613,16 +612,27 @@ def push():
         log(f"jsDelivr purge failed: {error}")
 
 
+def staged_files():
+    """What's about to be committed. Only the route list itself may ever leave this machine: never keys, the work
+    folder (it names individual aircraft), or code changed by hand."""
+    staged = git("diff", "--cached", "--name-only").splitlines()
+    stray = [path for path in staged if not path.startswith("routes/") and path not in PUBLISHED]
+    if stray:
+        raise SystemExit(f"refusing to publish files outside the route list: {', '.join(stray)}")
+    return staged
+
+
 def publish(day):
     """Two commits: the night's routes, then latest.json naming that commit."""
     git("add", "-A", "routes", "stats.json", "airlines-allow.txt")
-    if git("diff", "--cached", "--name-only"):
+    if staged_files():
         git("commit", "-q", "-m", f"Routes for {day}")
     path = os.path.join(ROOT, "latest.json")
     latest = read_json(path)
     latest["commit"] = git("rev-parse", "HEAD")
     write_json(path, latest)
     git("add", "latest.json")
+    staged_files()
     git("commit", "-q", "-m", f"latest.json: {day}")
     push()
     log(f"published {day} at {latest['commit'][:7]}")
@@ -644,6 +654,7 @@ def nightly(day=None):
     Catches up on days of the last week it missed, and is safe to run again: a published day is left alone."""
     day = day or datetime.now(timezone.utc).date() - timedelta(days=1)
     git("fetch", "-q", "origin")
+    git("rebase", "-q", "--autostash", "origin/main")  # code updates pushed from elsewhere; next run uses them
     if int(git("rev-list", "--count", "origin/main..HEAD") or 0):
         push()  # last run committed but couldn't push
     latest = read_json(os.path.join(ROOT, "latest.json")) or {}
