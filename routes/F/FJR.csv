@@ -1,4 +1,3 @@
 callsign,origin,destination,days_seen,last_seen,takeoff_utc
-FJR300,OJAM,LTFM,1,2026-10-01,13:25
 FJR500,OJAM,UGSB,1,2026-10-02,05:39
-FJR700,OJAM,LTCG,2,2026-10-03,10:04
+FJR700,OJAM,LTCG,1,2026-10-03,10:04

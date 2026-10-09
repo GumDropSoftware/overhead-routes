@@ -1,8 +1,8 @@
 {
- "date": "2026-10-07",
- "flights": 50859,
- "answered": 48150,
- "right": 47461,
- "wrong": 689,
- "missing": 2709
+ "date": "2026-10-08",
+ "flights": 52816,
+ "answered": 50512,
+ "right": 49878,
+ "wrong": 634,
+ "missing": 2304
 }
