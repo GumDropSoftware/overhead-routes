@@ -1,3 +1,5 @@
 callsign,origin,destination,days_seen,last_seen,takeoff_utc
 BRU912,UUEE,UMBB,1,2026-10-08,11:17
 BRU971,UMMS,UUEE,1,2026-10-04,12:49
+BRU979,UMMS,UUWW,1,2026-10-10,11:54
+BRU980,UUWW,UMMS,1,2026-10-10,14:19
