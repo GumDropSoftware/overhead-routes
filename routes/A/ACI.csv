@@ -1,2 +1,3 @@
 callsign,origin,destination,days_seen,last_seen,takeoff_utc
 ACI500,VTBS,LFPG,2,2026-10-10,04:22
+ACI501,LFPG,VTBS,1,2026-10-13,08:12

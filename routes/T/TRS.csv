@@ -1,3 +1,5 @@
 callsign,origin,destination,days_seen,last_seen,takeoff_utc
+TRS924,KGRR,KLOU,1,2026-10-13,20:32
+TRS924,KLOU,KGRR,1,2026-10-13,12:09
 TRS924,KLOU,KOSU,1,2026-10-07,18:29
 TRS924,KOSU,KLOU,1,2026-10-09,16:08
