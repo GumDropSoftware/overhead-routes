@@ -1,3 +1,5 @@
 callsign,origin,destination,days_seen,last_seen,takeoff_utc
 CTM1,LFBD,LFPV,1,2026-10-09,16:07
 CTM1,LFPV,LFBD,1,2026-10-09,07:55
+CTM1279,LFOH,LFPV,1,2026-10-14,08:14
+CTM1279,LFPV,LFOH,1,2026-10-14,07:11

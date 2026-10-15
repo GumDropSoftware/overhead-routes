@@ -1,2 +1,4 @@
 callsign,origin,destination,days_seen,last_seen,takeoff_utc
-OAL49,LGSY,LGAV,2,2026-10-10,06:15
+OAL3002,LGAV,LGTS,1,2026-10-14,20:56
+OAL3003,LGTS,LGAV,1,2026-10-14,22:20
+OAL49,LGSY,LGAV,1,2026-10-10,06:15

@@ -1,3 +1,4 @@
 callsign,origin,destination,days_seen,last_seen,takeoff_utc
 PTW712,VTBU,VTBS,1,2026-10-13,00:22
-PTW713,VTBS,VTBU,1,2026-10-13,23:09
+PTW713,VTBS,VTBU,2,2026-10-14,23:09
+PTW714,VTBU,VTBS,1,2026-10-14,00:08
