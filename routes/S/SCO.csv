@@ -1,4 +1,5 @@
 callsign,origin,destination,days_seen,last_seen,takeoff_utc
+SCO797R,ENGM,EGLF,1,2026-10-15,09:11
 SCO804,LIRA,ENVA,1,2026-10-11,12:22
 SCO805,LDZA,LIRA,1,2026-10-09,15:16
 SCO805,LIRA,LDZA,1,2026-10-09,09:29
