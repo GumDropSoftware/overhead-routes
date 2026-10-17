@@ -1,4 +1,5 @@
 callsign,origin,destination,days_seen,last_seen,takeoff_utc
+SEU1081,EPKT,EVRA,1,2026-10-16,21:45
 SEU425,LUKK,LEPA,1,2026-10-10,12:17
 SEU533,LUKK,LCLK,1,2026-10-10,04:23
 SEU533,LUKK,OJAI,1,2026-10-11,06:09
