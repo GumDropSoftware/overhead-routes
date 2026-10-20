@@ -33,6 +33,8 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 WORK = os.path.join(ROOT, "work")
 WINDOW = 7
 DAY = 86400
+# A day of a busy airliner is ~100 KB. 4d223c on 2026-10-17 was 335 MB, more than the job's 2 GB address space can parse.
+MAX_TRACE_BYTES = 32_000_000
 UA = {"User-Agent": "overhead-routes (+https://ota-drop.vercel.app/apps/overhead/)"}
 
 
@@ -348,6 +350,10 @@ def process_day(day, source=None):
                 log(f"  {counts['planes']:,} planes, {len(rows):,} flights, {time.time() - started:.0f}s, peak {peak_mb():.0f} MB")
             raw = tar.extractfile(member).read()
             data = gzip.decompress(raw) if raw[:2] == b"\x1f\x8b" else raw
+            if len(data) > MAX_TRACE_BYTES:
+                counts["oversized, skipped"] += 1
+                log(f"  {member.name}: {len(data) / 1e6:.0f} MB, skipped")
+                continue
             if not allow_bytes.intersection(FLIGHT_BYTES_RE.findall(data)):
                 continue
             trace = json.loads(data)
