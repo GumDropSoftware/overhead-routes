@@ -1,3 +1,4 @@
 callsign,origin,destination,days_seen,last_seen,takeoff_utc
 CAV586,CYWG,CYQT,4,2026-10-17,09:47
-CAV587,CYQT,CYWG,4,2026-10-17,01:04
+CAV587,CYQT,CYWG,5,2026-10-20,01:04
+CAV587,CYWG,CYQT,1,2026-10-20,08:56
