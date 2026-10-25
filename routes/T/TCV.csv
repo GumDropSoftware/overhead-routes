@@ -1,0 +1,4 @@
+callsign,origin,destination,days_seen,last_seen,takeoff_utc
+TCV601,GVAC,GVNP,1,2026-10-24,20:04
+TCV601,LPPT,GVAC,1,2026-10-24,14:48
+TCV630,GVAC,LIME,1,2026-10-24,11:21
