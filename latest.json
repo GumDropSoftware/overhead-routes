@@ -1,5 +1,9 @@
 {
- "date": "2026-10-23",
- "commit": "ca3ab47ae650bcc8bb38cea5a72c6a05a6a4a077",
- "caution": null
+ "date": "2026-10-24",
+ "commit": "bf722546e79e13f7ffb57127e116d2a350016034",
+ "caution": {
+  "reason": "schedule-change",
+  "since": "2026-10-25",
+  "until": "2026-11-01"
+ }
 }
