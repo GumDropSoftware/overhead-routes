@@ -2,3 +2,4 @@ callsign,origin,destination,days_seen,last_seen,takeoff_utc
 JUP401,LFLY,LFBP,1,2026-10-23,08:17
 JUP401,LIRF,LIME,1,2026-10-24,15:16
 JUP402,LFBP,LFLY,1,2026-10-23,22:15
+JUP402,LIME,LIRF,1,2026-10-25,18:06

@@ -1,4 +1,2 @@
 callsign,origin,destination,days_seen,last_seen,takeoff_utc
-PUE301,LEMD,SPJC,1,2026-10-18,09:31
-PUE302,SPJC,LEMD,1,2026-10-18,23:39
-PUE501,LEMD,SAEZ,2,2026-10-21,22:55
+PUE501,LEMD,SAEZ,1,2026-10-21,22:55
