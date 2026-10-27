@@ -1,0 +1,4 @@
+callsign,origin,destination,days_seen,last_seen,takeoff_utc
+RGN1811,LEVT,EDDK,1,2026-10-26,21:59
+RGN1NS,EDDK,LFRN,1,2026-10-26,02:27
+RGN2NS,LFRN,EDDK,1,2026-10-26,21:00
