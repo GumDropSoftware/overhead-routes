@@ -1,2 +1,5 @@
 callsign,origin,destination,days_seen,last_seen,takeoff_utc
 BRH549,FAOR,FAWK,1,2026-10-25,02:26
+BRH550,FACT,FAOR,1,2026-10-28,06:17
+BRH550,FAOR,FAWK,1,2026-10-28,01:59
+BRH550,FAWK,FACT,1,2026-10-28,03:02

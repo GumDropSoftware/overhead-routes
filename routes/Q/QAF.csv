@@ -1,3 +1,5 @@
 callsign,origin,destination,days_seen,last_seen,takeoff_utc
 QAF10,OTBD,RJTT,1,2026-10-22,07:12
+QAF8,OBBI,OTBD,1,2026-10-28,16:58
 QAF8,OTBD,EGLL,1,2026-10-22,06:23
+QAF8,OTBD,OBBI,1,2026-10-28,09:58
