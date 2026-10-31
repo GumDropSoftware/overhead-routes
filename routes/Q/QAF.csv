@@ -1,4 +1,5 @@
 callsign,origin,destination,days_seen,last_seen,takeoff_utc
+QAF10,LFPO,GOBD,1,2026-10-30,10:16
 QAF10,OTBD,LFPO,1,2026-10-29,07:05
 QAF8,OBBI,OTBD,1,2026-10-28,16:58
 QAF8,OTBD,OBBI,1,2026-10-28,09:58
