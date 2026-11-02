@@ -1,9 +1,5 @@
 {
- "date": "2026-10-31",
- "commit": "74317f9bc43b01372494654e23309870b5d5e6bf",
- "caution": {
-  "reason": "schedule-change",
-  "since": "2026-10-25",
-  "until": "2026-11-01"
- }
+ "date": "2026-11-01",
+ "commit": "488b459e77462ee08ce6f7b804326aefb26c5504",
+ "caution": null
 }
