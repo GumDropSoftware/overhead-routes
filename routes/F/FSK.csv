@@ -1,5 +1,4 @@
 callsign,origin,destination,days_seen,last_seen,takeoff_utc
-FSK212,FAOR,FAWK,1,2026-10-25,02:37
 FSK900,FACT,FAOR,4,2026-10-29,19:41
 FSK901,FAOR,FACT,4,2026-10-29,21:38
 FSK902,FACT,FAOR,4,2026-10-30,00:28

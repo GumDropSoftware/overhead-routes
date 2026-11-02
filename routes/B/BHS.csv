@@ -1,3 +1,4 @@
 callsign,origin,destination,days_seen,last_seen,takeoff_utc
 BHS141,MYGF,KFLL,2,2026-10-27,15:53
-BHS142,KFLL,MYGF,6,2026-10-30,17:14
+BHS142,KFLL,MYGF,5,2026-10-30,17:09
+BHS237,MYNN,KMCO,1,2026-11-01,21:23
