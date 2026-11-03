@@ -1,0 +1,4 @@
+callsign,origin,destination,days_seen,last_seen,takeoff_utc
+QCL101,SUMU,SAEZ,1,2026-11-02,00:18
+QCL102,SUMU,SGAS,1,2026-11-02,04:56
+QCL104,SAEZ,SUMU,1,2026-11-02,02:38
