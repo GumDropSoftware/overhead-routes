@@ -1,9 +1,5 @@
 {
- "date": "2026-11-02",
- "commit": "20d7b3d7fbef5339d1d7c05e9786b897dfc06268",
- "caution": {
-  "reason": "accuracy-drop",
-  "since": "2026-11-03",
-  "until": "2026-11-04"
- }
+ "date": "2026-11-03",
+ "commit": "78e827624cc42a239f43c722b2d29fe7ba4b2e5b",
+ "caution": null
 }
