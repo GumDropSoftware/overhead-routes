@@ -1,4 +1,5 @@
 callsign,origin,destination,days_seen,last_seen,takeoff_utc
+NFA188P,EKYT,ENVA,1,2026-11-04,04:43
 NFA44,EDDN,ENAT,1,2026-10-31,09:54
 NFA44P,EKYT,EDDN,1,2026-10-31,07:31
 NFA44P,ENAT,EKYT,1,2026-10-31,14:07
