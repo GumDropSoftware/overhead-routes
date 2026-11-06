@@ -1,3 +1,5 @@
 callsign,origin,destination,days_seen,last_seen,takeoff_utc
 FRE76,KCMA,KNTD,2,2026-11-04,17:29
 FRE76,KNTD,KCMA,2,2026-11-04,15:14
+FRE76,KNTD,KPUB,1,2026-11-05,21:05
+FRE76,KPUB,KSUS,1,2026-11-05,17:06
