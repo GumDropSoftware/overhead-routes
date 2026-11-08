@@ -1,4 +1,5 @@
 callsign,origin,destination,days_seen,last_seen,takeoff_utc
 WST110,MYGF,KFLL,2,2026-11-06,14:43
 WST300,MYGF,MYBS,1,2026-11-02,18:51
+WST718,MYGF,MYNN,1,2026-11-07,22:53
 WST900,MYNN,MYBS,1,2026-11-04,15:47
