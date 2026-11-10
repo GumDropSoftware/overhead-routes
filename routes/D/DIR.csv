@@ -1,2 +1,4 @@
 callsign,origin,destination,days_seen,last_seen,takeoff_utc
 DIR2312,OMDW,LLBG,1,2026-11-05,03:52
+DIR2411,LLBG,OMDW,1,2026-11-09,05:18
+DIR2412,OMDW,LCLK,1,2026-11-09,10:09
