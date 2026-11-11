@@ -1,0 +1,4 @@
+callsign,origin,destination,days_seen,last_seen,takeoff_utc
+MNS310,LMML,HLLM,1,2026-11-10,18:02
+MNS570,HLLM,LEMD,1,2026-11-10,07:56
+MNS571,LEMD,HLLM,1,2026-11-10,12:25

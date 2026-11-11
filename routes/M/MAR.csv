@@ -1,2 +1,4 @@
 callsign,origin,destination,days_seen,last_seen,takeoff_utc
 MAR5109,LIRF,LIME,1,2026-11-09,09:35
+MAR5217,LCLK,UDYZ,1,2026-11-10,17:30
+MAR5219,LROP,LCLK,1,2026-11-10,14:39
