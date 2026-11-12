@@ -1,0 +1,4 @@
+callsign,origin,destination,days_seen,last_seen,takeoff_utc
+OPT407,KBCT,KRSW,1,2026-11-11,21:19
+OPT407,KCAK,KBCT,1,2026-11-11,17:35
+OPT407,KCGF,KCAK,1,2026-11-11,14:57
