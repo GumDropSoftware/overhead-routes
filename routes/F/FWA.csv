@@ -1,3 +1,5 @@
 callsign,origin,destination,days_seen,last_seen,takeoff_utc
 FWA1,KFLG,KSBP,1,2026-11-07,19:16
 FWA1,KSBP,KFLG,1,2026-11-08,01:59
+FWA5,KFLG,KPRC,1,2026-11-12,23:26
+FWA5,KPRC,KFLG,1,2026-11-12,00:55

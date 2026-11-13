@@ -1,2 +1,3 @@
 callsign,origin,destination,days_seen,last_seen,takeoff_utc
-SGD100,RPVM,RPLC,3,2026-11-10,20:04
+SGD100,RPVM,RPLC,2,2026-11-10,20:04
+SGD101,RPLC,RPVM,1,2026-11-12,22:21

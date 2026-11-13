@@ -1,3 +1,4 @@
 callsign,origin,destination,days_seen,last_seen,takeoff_utc
-KZU201,LTFM,LFPG,1,2026-11-05,02:15
 KZU303,LTFM,LTBA,1,2026-11-08,15:27
+KZU461,LTFM,HLLM,1,2026-11-12,05:16
+KZU462,HLLM,LTFM,1,2026-11-12,09:47

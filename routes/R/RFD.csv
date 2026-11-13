@@ -1,4 +1,5 @@
 callsign,origin,destination,days_seen,last_seen,takeoff_utc
+RFD103,MMSP,MMMY,1,2026-11-12,14:14
 RFD104,MMMY,MMSP,2,2026-11-11,17:14
 RFD105,MMSP,MMMY,2,2026-11-11,19:15
 RFD106,MMMY,MMSP,1,2026-11-11,20:38
