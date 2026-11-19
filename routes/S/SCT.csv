@@ -1,5 +1,4 @@
 callsign,origin,destination,days_seen,last_seen,takeoff_utc
 SCT263,EDDK,ESSB,1,2026-11-12,10:49
 SCT263,ESSB,ESSL,1,2026-11-12,12:54
-SCT263,ESSL,EDDK,1,2026-11-11,09:46
 SCT263,ESSL,ESNS,1,2026-11-14,12:33

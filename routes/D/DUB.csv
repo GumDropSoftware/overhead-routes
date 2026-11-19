@@ -1,3 +1,5 @@
 callsign,origin,destination,days_seen,last_seen,takeoff_utc
 DUB6,OMDB,EGSS,1,2026-11-15,06:16
+DUB8,OBBI,OMDB,1,2026-11-18,14:26
+DUB8,OMDB,OBBI,1,2026-11-18,10:33
 DUB8,OMDB,OMDW,1,2026-11-13,06:24
