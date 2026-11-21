@@ -1,0 +1,4 @@
+callsign,origin,destination,days_seen,last_seen,takeoff_utc
+TXG600,MKJP,KMIA,1,2026-11-20,15:18
+TXG601,KMIA,MKJP,1,2026-11-20,12:32
+TXG960,MYGF,KMIA,1,2026-11-20,21:01
