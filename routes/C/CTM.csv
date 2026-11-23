@@ -1,4 +1,5 @@
 callsign,origin,destination,days_seen,last_seen,takeoff_utc
 CTM1,EDDB,LFPV,1,2026-11-19,18:57
 CTM1,LFPV,EDDB,1,2026-11-19,10:07
+CTM1,LFPV,LFBO,1,2026-11-22,17:53
 CTM5,UGTB,LFPV,1,2026-11-18,19:57

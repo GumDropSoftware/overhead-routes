@@ -1,4 +1,5 @@
 callsign,origin,destination,days_seen,last_seen,takeoff_utc
+FRF130,LZIB,GMTT,1,2026-11-22,13:53
 FRF130,LZIB,LIPO,1,2026-11-18,15:33
 FRF131,LIPL,LEMG,1,2026-11-19,10:48
 FRF131A,LEMG,GCLP,1,2026-11-19,16:28

@@ -1,2 +1,4 @@
 callsign,origin,destination,days_seen,last_seen,takeoff_utc
+GRB424,EGGP,EGCC,1,2026-11-22,09:51
+GRB424,KSDF,EGGP,1,2026-11-22,01:55
 GRB5,CYVR,KBWI,1,2026-11-21,19:48
