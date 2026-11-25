@@ -1,2 +1,4 @@
 callsign,origin,destination,days_seen,last_seen,takeoff_utc
-RWD700,EBBR,LFPG,3,2026-11-21,18:38
+RWD700,EBBR,LFPG,2,2026-11-21,18:38
+RWD700,LFPG,EBBR,1,2026-11-24,08:38
+RWD701,EBBR,LFPG,1,2026-11-24,17:34
