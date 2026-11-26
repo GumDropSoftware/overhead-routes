@@ -2,3 +2,4 @@ callsign,origin,destination,days_seen,last_seen,takeoff_utc
 LYD1AP,EGMD,LIML,1,2026-11-22,15:10
 LYD1C,LIML,LHBP,1,2026-11-23,08:23
 LYD1D,LHBP,LKPR,1,2026-11-23,18:19
+LYD1E,LKPR,LRBS,1,2026-11-25,12:18

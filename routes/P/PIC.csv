@@ -1,2 +1,4 @@
 callsign,origin,destination,days_seen,last_seen,takeoff_utc
+PIC6022,VVTS,VVNB,1,2026-11-25,13:49
+PIC6023,VVNB,VVTS,1,2026-11-25,16:55
 PIC6443,VVCI,VVTS,1,2026-11-21,09:24
