@@ -1,3 +1,4 @@
 callsign,origin,destination,days_seen,last_seen,takeoff_utc
-BTN700,VECC,VTBS,4,2026-11-24,08:33
+BTN700,VECC,VTBS,3,2026-11-24,07:33
 BTN701,VTBS,VECC,3,2026-11-24,00:43
+BTN789,VHHH,VTBS,1,2026-11-26,17:05
