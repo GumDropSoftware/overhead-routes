@@ -1,2 +1,4 @@
 callsign,origin,destination,days_seen,last_seen,takeoff_utc
 TAI310,KMCO,KMIA,1,2026-11-21,18:30
+TAI567,KJFK,KMIA,1,2026-11-27,06:56
+TAI582,KORD,KIAD,1,2026-11-27,22:20

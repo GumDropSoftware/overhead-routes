@@ -1,3 +1,5 @@
 callsign,origin,destination,days_seen,last_seen,takeoff_utc
 HLJ705,LRCV,EGHI,1,2026-11-25,07:35
+HLJ706,EGHI,LRCV,1,2026-11-27,16:47
+HLJ706,LRCV,LROP,1,2026-11-27,20:19
 HLJ905,LKPR,LRCV,1,2026-11-25,05:25
